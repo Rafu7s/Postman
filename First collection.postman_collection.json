@@ -1,0 +1,385 @@
+{
+	"info": {
+		"_postman_id": "67d9c3df-36d1-400b-86ab-5ee443ab85a0",
+		"name": "First collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET file example",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testtraining.org/data.txt",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"data.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET file example",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://testtraining.org/data.txt",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"data.txt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET file example",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "4=omg"
+				},
+				"url": {
+					"raw": "https://testtraining.org/patchdata.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"patchdata.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Janusz",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Sopot",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/postform.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"postform.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE data",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "firstname",
+							"value": "Janusz",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "Sopot",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/postform.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"postform.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "4"
+				},
+				"url": {
+					"raw": "https://testtraining.org/basicauth/index.html",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"basicauth",
+						"index.html"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth bearer",
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "use",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secretpasswor",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/login.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"login.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth bearer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "EXAMPLETOKEN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "user",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secretpassword",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/bearerauth.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"bearerauth.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Soap",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "EXAMPLETOKEN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "user",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "secretpassword",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://testtraining.org/soapexample.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"soapexample.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "json",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "EXAMPLETOKEN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:sam=\"http://www.soapui.org/sample/\">;\r\n    <soap:Header/>\r\n    <soap:Body>\r\n        <sam:search>\r\n            <searchstring>janek</searchstring>\r\n        </sam:search>\r\n    </soap:Body>\r\n</soap:Envelope>",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://testtraining.org/jsonexample.php",
+					"protocol": "https",
+					"host": [
+						"testtraining",
+						"org"
+					],
+					"path": [
+						"jsonexample.php"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "b33946ac-3490-4cf0-b92c-b32beb11c1b4",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "32343db4-a0d5-4513-8c84-4f7c7291484f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
