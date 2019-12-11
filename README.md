@@ -13,3 +13,9 @@ Read: GET
 Update: PUT, POST, PATCH
 <br>
 Delete: DELETE
+
+<br>
+
+Basic Auth
+<br>
+Bearer Token
