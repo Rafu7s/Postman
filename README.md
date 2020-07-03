@@ -15,6 +15,8 @@ Update: PUT, POST, PATCH
 Delete: DELETE
 
 <br>
+https://openweathermap.org/current
+<br>
 
 Basic Auth
 <br>
