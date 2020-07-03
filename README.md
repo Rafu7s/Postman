@@ -13,7 +13,7 @@ Read: GET
 Update: PUT, POST, PATCH
 <br>
 Delete: DELETE
-<br>
+<br><br>
 https://openweathermap.org/current
 <br>
 
