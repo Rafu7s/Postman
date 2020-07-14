@@ -16,6 +16,8 @@ Delete: DELETE
 <br><br>
 https://openweathermap.org/current
 <br>
+Fake REST server: http://jsonplaceholder.typicode.com/
+<br>
 
 Basic Auth
 <br>
