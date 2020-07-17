@@ -18,6 +18,7 @@ https://openweathermap.org/current
 <br>
 Fake REST server: http://jsonplaceholder.typicode.com/
 <br>
+Skrypty testowe 'tests': https://learning.postman.com/docs/writing-scripts/script-references/test-examples/
 
 Basic Auth
 <br>
