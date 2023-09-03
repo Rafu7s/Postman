@@ -6,7 +6,7 @@ API is the acronym for Application Programming Interface, which describes a set 
 
 <br>
 CRUD – create, read, update, delete
-<br>
+<br><br>
 
 Create: PUT, POST – create new thing
 <br>
