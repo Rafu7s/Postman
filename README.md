@@ -5,12 +5,14 @@
 API is the acronym for Application Programming Interface, which describes a set of well-defined instructions created for two applications communicating with each other.
 
 <br>
+CRUD – create, read, update, delete
+<br>
 
-Create: PUT, POST
+Create: PUT, POST – create new thing
 <br>
-Read: GET
+Read: GET – read  information about thing
 <br>
-Update: PUT, POST, PATCH
+Update: PUT, POST, PATCH – update information about thing
 <br>
 Delete: DELETE
 <br><br>
