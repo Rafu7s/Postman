@@ -22,13 +22,15 @@ Fake REST server: http://jsonplaceholder.typicode.com/
 <br>
 Skrypty testowe 'tests': https://learning.postman.com/docs/writing-scripts/script-references/test-examples/
 
+Autoryzacja: <br>
 Basic Auth
 <br>
 Bearer Token
-<br>
+<br><br>
 Przykład stworzenia testu sprtawdzającego odpowiedź w Postman: 
-<br>
-![image](https://github.com/Rafu7s/Postman/assets/37976003/868e1794-ad29-42e0-b7bf-bd47ca7aec07)
+<br><br>
+![image](https://github.com/Rafu7s/Postman/assets/37976003/256c9cfb-05c2-4f61-ae41-5af92375c457)
 
-
+<br><br>
+----------------------------------------------------------------------------------------------
 ![alt text](/bugfixing.jpg)
