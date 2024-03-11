@@ -20,14 +20,14 @@ https://openweathermap.org/current
 <br>
 Fake REST server: http://jsonplaceholder.typicode.com/
 <br>
-Skrypty testowe 'tests': https://learning.postman.com/docs/writing-scripts/script-references/test-examples/
+Test scripts 'tests': https://learning.postman.com/docs/writing-scripts/script-references/test-examples/
 
-Autoryzacja: <br>
+Authorisation: <br>
 Basic Auth
 <br>
 Bearer Token
 <br><br>
-Przykład stworzenia testu sprawdzającego odpowiedź w Postman: 
+An example of how to create response test in Postman:
 <br><br>
 ![image](https://github.com/Rafu7s/Postman/assets/37976003/256c9cfb-05c2-4f61-ae41-5af92375c457)
 
