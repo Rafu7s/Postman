@@ -31,6 +31,11 @@ An example of how to create response test in Postman:
 <br><br>
 ![image](https://github.com/Rafu7s/Postman/assets/37976003/256c9cfb-05c2-4f61-ae41-5af92375c457)
 
+<br>
+Swagger: <br>
+https://parabank.parasoft.com/parabank/api-docs/index.html
 <br><br>
+
+
 ----------------------------------------------------------------------------------------------
 ![alt text](/bugfixing.jpg)
