@@ -25,5 +25,10 @@ Skrypty testowe 'tests': https://learning.postman.com/docs/writing-scripts/scrip
 Basic Auth
 <br>
 Bearer Token
+<br>
+Przykład stworzenia testu sprtawdzającego odpowiedź w Postman: 
+<br>
+![image](https://github.com/Rafu7s/Postman/assets/37976003/868e1794-ad29-42e0-b7bf-bd47ca7aec07)
+
 
 ![alt text](/bugfixing.jpg)
