@@ -27,7 +27,7 @@ Basic Auth
 <br>
 Bearer Token
 <br><br>
-Przykład stworzenia testu sprtawdzającego odpowiedź w Postman: 
+Przykład stworzenia testu sprawdzającego odpowiedź w Postman: 
 <br><br>
 ![image](https://github.com/Rafu7s/Postman/assets/37976003/256c9cfb-05c2-4f61-ae41-5af92375c457)
 
