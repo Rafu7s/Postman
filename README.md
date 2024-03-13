@@ -41,6 +41,12 @@ Swagger: <br>
 https://parabank.parasoft.com/parabank/api-docs/index.html
 <br><br>
 
+How to write automated tests for APIs using Postman: <br>
+https://blog.postman.com/writing-automated-tests-for-apis-using-postman/
+<br><br>
+Publics API: <br>
+https://github.com/toddmotto/public-apis 
+<br><br>
 
 ----------------------------------------------------------------------------------------------
 ![alt text](/bugfixing.jpg)
