@@ -47,6 +47,9 @@ https://blog.postman.com/writing-automated-tests-for-apis-using-postman/
 Publics API: <br>
 https://github.com/toddmotto/public-apis 
 <br><br>
+REST tutorial: <br>
+https://developer.adobe.com/commerce/webapi/rest/tutorials/  (follow the steps)
+<br><br>
 
 ----------------------------------------------------------------------------------------------
 ![alt text](/bugfixing.jpg)
