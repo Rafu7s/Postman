@@ -18,7 +18,7 @@ Delete: DELETE
 <br><br>
 https://openweathermap.org/current
 <br>
-Fake REST server: http://jsonplaceholder.typicode.com/
+Dummy REST server: https://jsonplaceholder.typicode.com/, https://restcountries.com/v3.1/capital/Warsaw, https://reqres.in/, https://dummy.restapiexample.com/
 <br>
 Test scripts 'tests': https://learning.postman.com/docs/writing-scripts/script-references/test-examples/
 
