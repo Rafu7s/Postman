@@ -34,7 +34,7 @@ An example of how to create response test in Postman:
 Collections should look like this:
 <br><br>
 ![image](https://github.com/Rafu7s/Postman/assets/37976003/5f5eb0af-4c5c-4a2e-8fe2-189849464821)
-<br> Sample collection is in file: 'First collection.postman_collection.json'
+<br>ℹ️ Sample collection is in file: 'First collection.postman_collection.json'
 
 <br>
 Swagger: <br>
